@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Main from '../views/Main.vue'
-
+import Translator from '../views/Translator.vue'
+import Game from '../views/Game.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -10,6 +11,16 @@ const routes = [
     name: 'main',
     component: Main
   },
+  {
+    path: '/translator',
+    name: 'translator',
+    component: Translator
+  },
+  {
+    path: '/game',
+    name: 'game',
+    component: Game
+  }
   
 ]
 
