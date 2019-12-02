@@ -2,7 +2,7 @@
 <div>
   <Banner></Banner>
   <div id="divFrm"  style="overflow-x:hidden; overflow-y:hidden;">
-  <iframe src="https://translate.kakao.com/"  frameborder="0" scrolling="no"></iframe>
+  <iframe src="https://stdict.korean.go.kr/main/main.do"  frameborder="0" scrolling="no"></iframe>
   </div>
   </div>
 </template>
